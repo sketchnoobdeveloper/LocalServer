@@ -1,5 +1,7 @@
 {
   "isUpdate": true,
+  "isTitle": "Hi",
+  "isMessage": "Hello",
   "isPositiveButton": "Ok",
   "isNegativeButton": "Cancel",
   "isLink": "https://www.google.com"
