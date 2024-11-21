@@ -1,6 +1,6 @@
 {
-  "isUpdate": true,
-  "isVersionCode": "1.1",
+  "isUpdate": false,
+  "isVersionCode": "1.0",
   "isTitle": "Hi",
   "isMessage": "Hello",
   "isPositiveButton": "Ok",
