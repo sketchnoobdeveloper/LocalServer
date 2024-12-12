@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Unlimited Gmail V1",
+    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png",
+    "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fcontext_uri%253Dhttps%25253A%25252F%25252Fideogram.ai&dsh=S839201076%3A1729667134979816&client_id=364249790788-ts76onaje3pfh86llcpjs5gkutiiupbs.apps.googleusercontent.com&ddm=0&o2v=1&redirect_uri=https%3A%2F%2Fideogram.ai%2F__%2Fauth%2Fhandler&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+profile&service=lso&state=AMbdmDmhD_6y9q68ATHb6hRUZIWCnYeuYMZWEAJnfScFUeGdzqev0x5JO2Gap7226rnBThTkTFuKOnJWYwEab2OYX-QqXfBBZ4mEayx4jOcXzMh2dzviqxPvHWZVYsk45B6Ps0sz8ZwymZ6sllY9cNQ3TqxMrPWYTJt6vE-d4DDcEuEcHgZyPxRgGM9iIeZZ1x4J_Ay6NkzUDg5E6-FgzW5h-vCMCndUadCv8x8QRCcA46oWEpqREPrx3MxybEmWkt4pFlAdW88or7_Bsn6Ez2q2qAJUdJY6ACSjtZe63_oTNwWfPE8&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANfZ1ELmD5LFthhVrFRHavCAHYFnww7MbZmwiJobF0FAlgIQ2rEd25JTxeny6aLOPhuPJHDgpmdjeTpoq4rUxrCZzG_KOi5xuqub57TtutwXrewHpvfsSek37yWNwAupjWDnvKt2pL-fZZ3Kt0LRK90Hn3FNIsL99VR6_R5I-4b0CG2bhZ-GbI2z6xEk95J0zKcTZ3m7cPujunCluNW0P_TZiWStAigwODkyAmQJo4Wcbbnf_oNHELxGS20R2546ivFBv7MXWLQTo8ZLk_75adJcNVu79AHoKiLaaA3sp89Ak8VhbzA1leljiLCBZ5uu8WoVI02PTAlUGi6_ig-LE_fX0Kw8YAc0HbRxdnOkfotV5OMmObLtcm60_NPuHIcMoRwVW-5Oi2PsJD79Fna44orwMIFhh61GsNfx8XJD37WVRFWddxmOEujs3Zn4HRKozPY5ohMikHCyiHw-qgwHeG3qnMmCg%26flowName%3DGeneralOAuthFlow%26as%3DS839201076%253A1729667134979816%26client_id%3D364249790788-ts76onaje3pfh86llcpjs5gkutiiupbs.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fideogram.ai&rart=ANgoxcfNiZWuEmUHDhkXUXut5oVMbjnVdI_bTLNu2-aTKAH4EPILsI7-cQx2dEmcwsbr1CvlN7AmAu6ESQCHi5KeMoVkZ_xsiakqqUHeiilg8fap1D8y8Ck"
+  },
+  {
+    "name": "Unlimited Gmail V2",
+    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png",
+    "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&ec=65620&hl=en&ifkv=ARpgrqc4Ygn-YXx3M_qIxrpEk2aqneHQ6-7NKd1PIRX5zxynX-d9Yn7ueCQx11YiXjiObphNnXOgQw&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S353757485%3A1729018053564470&ddm=0"
+  },
+  {
+    "name": "Facebook",
+    "icon_url": "https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png",
+    "url": "https://www.facebook.com"
+  },
+  {
+    "name": "Twitter",
+    "icon_url": "https://about.x.com/content/dam/about-twitter/x/large-x-logo.png.twimg.1920.png",
+    "url": "https://twitter.com"
+  },
+  {
+    "name": "Instagram",
+    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "name": "LinkedIn",
+    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png",
+    "url": "https://www.linkedin.com"
+  },
+  {
+    "name": "Amazon",
+    "icon_url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSZRcHj0Z28EfsP68SXkJ36jKKM8YnwC0TIhQ\u0026usqp\u003dCAU",
+    "url": "https://www.amazon.com"
+  
+  }
+]
