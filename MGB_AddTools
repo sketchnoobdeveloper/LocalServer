@@ -1,43 +1,257 @@
 [
-  {
-    "name": "Unlimited Gmail V1",
-    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png",
-    "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fcontext_uri%253Dhttps%25253A%25252F%25252Fideogram.ai&dsh=S839201076%3A1729667134979816&client_id=364249790788-ts76onaje3pfh86llcpjs5gkutiiupbs.apps.googleusercontent.com&ddm=0&o2v=1&redirect_uri=https%3A%2F%2Fideogram.ai%2F__%2Fauth%2Fhandler&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+profile&service=lso&state=AMbdmDmhD_6y9q68ATHb6hRUZIWCnYeuYMZWEAJnfScFUeGdzqev0x5JO2Gap7226rnBThTkTFuKOnJWYwEab2OYX-QqXfBBZ4mEayx4jOcXzMh2dzviqxPvHWZVYsk45B6Ps0sz8ZwymZ6sllY9cNQ3TqxMrPWYTJt6vE-d4DDcEuEcHgZyPxRgGM9iIeZZ1x4J_Ay6NkzUDg5E6-FgzW5h-vCMCndUadCv8x8QRCcA46oWEpqREPrx3MxybEmWkt4pFlAdW88or7_Bsn6Ez2q2qAJUdJY6ACSjtZe63_oTNwWfPE8&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANfZ1ELmD5LFthhVrFRHavCAHYFnww7MbZmwiJobF0FAlgIQ2rEd25JTxeny6aLOPhuPJHDgpmdjeTpoq4rUxrCZzG_KOi5xuqub57TtutwXrewHpvfsSek37yWNwAupjWDnvKt2pL-fZZ3Kt0LRK90Hn3FNIsL99VR6_R5I-4b0CG2bhZ-GbI2z6xEk95J0zKcTZ3m7cPujunCluNW0P_TZiWStAigwODkyAmQJo4Wcbbnf_oNHELxGS20R2546ivFBv7MXWLQTo8ZLk_75adJcNVu79AHoKiLaaA3sp89Ak8VhbzA1leljiLCBZ5uu8WoVI02PTAlUGi6_ig-LE_fX0Kw8YAc0HbRxdnOkfotV5OMmObLtcm60_NPuHIcMoRwVW-5Oi2PsJD79Fna44orwMIFhh61GsNfx8XJD37WVRFWddxmOEujs3Zn4HRKozPY5ohMikHCyiHw-qgwHeG3qnMmCg%26flowName%3DGeneralOAuthFlow%26as%3DS839201076%253A1729667134979816%26client_id%3D364249790788-ts76onaje3pfh86llcpjs5gkutiiupbs.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fideogram.ai&rart=ANgoxcfNiZWuEmUHDhkXUXut5oVMbjnVdI_bTLNu2-aTKAH4EPILsI7-cQx2dEmcwsbr1CvlN7AmAu6ESQCHi5KeMoVkZ_xsiakqqUHeiilg8fap1D8y8Ck"
-  },
-  {
-    "name": "Unlimited Gmail V2",
-    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png",
-    "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&ec=65620&hl=en&ifkv=ARpgrqc4Ygn-YXx3M_qIxrpEk2aqneHQ6-7NKd1PIRX5zxynX-d9Yn7ueCQx11YiXjiObphNnXOgQw&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S353757485%3A1729018053564470&ddm=0"
-  },
-{
-    "name": "Unlimited Gmail V3",
-    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png",
-    "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fcontext_uri%253Dhttps%25253A%25252F%25252Fneverinstall.com&dsh=S50833500%3A1737085949362551&client_id=882851823791-6ambpord2vnnvfbnofve0qrabif32hkr.apps.googleusercontent.com&ddm=1&o2v=1&redirect_uri=https%3A%2F%2Fauth.neverinstall.com%2F__%2Fauth%2Fhandler&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+profile+email&service=lso&state=AMbdmDm8qSUF5B4OqLYC-RA_ep0k6uoH2ZTPIqK536hizY1MjqpwKikiQX6ZVu9ydmfpfrdkZPwszAPIrqitqxbTWSLgBi8Bitzr0un34VdxhAR1awhxaHTYiJ82amNZm94nzfRIjkvU3F_f61nTV_lrhRhsly8-_Yq6RCIfzo_HxDad-fl-GA6Edncv6ppGNvYZer7Lj-Z8w0kGjP_z7aShFpebHNAB6yVZqFylTR__00tP4mhA8cV1FV14k5Ib4HOuUW2-Tqw5yaesuiB85r9JaAeHrmDYgooJ0Ogh9zyileCSwpKalqhncJX6h6lI&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMn2WqmcBvO6bN90jCOPoz4oYOC7YlPsKvZeRn30wJXsTbBPs-7cypMhM5HI2AVYQhIApPXGl07Qr3ThDpJMiT4vGCL48w9wFHqTD8tq5XqXcezReqwu-r3sM9Tovug5lDHP-hNPTmCvq1ZKkGmwoy9RQdVFNpuPnrx521h3muT4fcq162WoZkCF2OuSt6LZnB4DazGvowQh6GUGrd84kCSAeOffAziuir9oFnSxV9JpqaaGlcJPKWrUCz23CXU47sNo_907KeELVm2n6HrkWvtAECt6c2Kxz3aH-oWlaWXXbQ4LFsRnjGkRPOGF5tBAfBkTaBD1mfNRl33u8KKjwvz6ljxrHj5e8qjYyGvqLECjP8L0v51Ce2AJeZD6izQRM0edSefhApuzgWQvMIClJAteGGvWqmNqtRYy026H-pMOOF_j3hPwioC-vFw6cyvRoEP_1N5wOyN28xhA_JVCi3QbZhK_w%26flowName%3DGeneralOAuthFlow%26as%3DS50833500%253A1737085949362551%26client_id%3D882851823791-6ambpord2vnnvfbnofve0qrabif32hkr.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.neverinstall.com&rart=ANgoxcfEmAEdVnr818prRirIZBiKCX6skpLAb9eqQH2R0joRN9b51E_Vpz3SdH5WAakSuYHLaeTCaSFP9QTSQm1Npeirv8f6gwepc-HD4-OcpZiypCaZ2tE"
-  },
-  {
-    "name": "Facebook",
-    "icon_url": "https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png",
-    "url": "https://www.facebook.com"
-  },
-  {
-    "name": "Twitter",
-    "icon_url": "https://about.x.com/content/dam/about-twitter/x/large-x-logo.png.twimg.1920.png",
-    "url": "https://twitter.com"
-  },
-  {
-    "name": "Instagram",
-    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png",
-    "url": "https://www.instagram.com"
-  },
-  {
-    "name": "LinkedIn",
-    "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png",
-    "url": "https://www.linkedin.com"
-  },
-  {
-    "name": "Amazon",
-    "icon_url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSZRcHj0Z28EfsP68SXkJ36jKKM8YnwC0TIhQ\u0026usqp\u003dCAU",
-    "url": "https://www.amazon.com"
-  
-  }
+    {
+        "name": "YouTube",
+        "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL2tRbbjdZIZEnJ7hw-eikJXASzVbQKEG-iA&usqp=CAU",
+        "url": "https://www.youtube.com"
+    },
+    {
+        "name": "Google",
+        "icon_url": "https://www.google.com/favicon.ico",
+        "url": "https://www.google.com"
+    },
+    {
+        "name": "Facebook",
+        "icon_url": "https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico",
+        "url": "https://www.facebook.com"
+    },
+    {
+        "name": "Twitter",
+        "icon_url": "https://abs.twimg.com/favicons/twitter.ico",
+        "url": "https://twitter.com"
+    },
+    {
+        "name": "Instagram",
+        "icon_url": "https://www.instagram.com/static/images/ico/favicon.ico",
+        "url": "https://www.instagram.com"
+    },
+    {
+        "name": "LinkedIn",
+        "icon_url": "https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8",
+        "url": "https://www.linkedin.com"
+    },
+    {
+        "name": "Wikipedia",
+        "icon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+        "url": "https://www.wikipedia.org"
+    },
+    {
+        "name": "Amazon",
+        "icon_url": "https://www.amazon.com/favicon.ico",
+        "url": "https://www.amazon.com"
+    },
+    {
+        "name": "Netflix",
+        "icon_url": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico",
+        "url": "https://www.netflix.com"
+    },
+    {
+        "name": "Reddit",
+        "icon_url": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+        "url": "https://www.reddit.com"
+    },
+    {
+        "name": "WhatsApp",
+        "icon_url": "https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png",
+        "url": "https://web.whatsapp.com"
+    },
+    {
+        "name": "Spotify",
+        "icon_url": "https://open.scdn.co/cdn/images/favicon32.8e66b099.png",
+        "url": "https://www.spotify.com"
+    },
+    {
+        "name": "Microsoft",
+        "icon_url": "https://c.s-microsoft.com/favicon.ico?v2",
+        "url": "https://www.microsoft.com"
+    },
+    {
+        "name": "Apple",
+        "icon_url": "https://www.apple.com/favicon.ico",
+        "url": "https://www.apple.com"
+    },
+    {
+        "name": "GitHub",
+        "icon_url": "https://github.githubassets.com/favicons/favicon.png",
+        "url": "https://github.com"
+    },
+    {
+        "name": "Stack Overflow",
+        "icon_url": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico",
+        "url": "https://stackoverflow.com"
+    },
+    {
+        "name": "Pinterest",
+        "icon_url": "https://i.pinimg.com/favicon.ico",
+        "url": "https://www.pinterest.com"
+    },
+    {
+        "name": "TikTok",
+        "icon_url": "https://s16.tiktokcdn.com/musical/resource/wap/static/image/logo_144c91a.png?v=2",
+        "url": "https://www.tiktok.com"
+    },
+    {
+        "name": "BBC",
+        "icon_url": "https://static.bbc.co.uk/favicon.ico",
+        "url": "https://www.bbc.com"
+    },
+    {
+        "name": "CNN",
+        "icon_url": "https://cdn.cnn.com/cnn/.e/img/3.0/global/misc/apple-touch-icon.png",
+        "url": "https://www.cnn.com"
+    },
+    {
+        "name": "ESPN",
+        "icon_url": "https://a.espncdn.com/combiner/i?img=/i/espn/misc/favicon-32.png",
+        "url": "https://www.espn.com"
+    },
+    {
+        "name": "Dropbox",
+        "icon_url": "https://cfl.dropboxstatic.com/static/images/favicon-vfl8lUR9B.ico",
+        "url": "https://www.dropbox.com"
+    },
+    {
+        "name": "Twitch",
+        "icon_url": "https://www.twitch.tv/favicon.ico",
+        "url": "https://www.twitch.tv"
+    },
+    {
+        "name": "Zoom",
+        "icon_url": "https://zoom.us/favicon.ico",
+        "url": "https://zoom.us"
+    },
+    {
+        "name": "Yahoo",
+        "icon_url": "https://s.yimg.com/cv/apiv2/default/icons/favicon_y19_32x32_custom.svg",
+        "url": "https://www.yahoo.com"
+    },
+    {
+        "name": "eBay",
+        "icon_url": "https://www.ebay.com/favicon.ico",
+        "url": "https://www.ebay.com"
+    },
+    {
+        "name": "Quora",
+        "icon_url": "https://qph.fs.quoracdn.net/main-qimg-6a6a5e7c2f6a6a3c3a6a6a5e7c2f6a6a",
+        "url": "https://www.quora.com"
+    },
+    {
+        "name": "IMDb",
+        "icon_url": "https://m.media-amazon.com/images/G/01/imdb/images/favicon-2165806970._CB484110913_.ico",
+        "url": "https://www.imdb.com"
+    },
+    {
+        "name": "PayPal",
+        "icon_url": "https://www.paypalobjects.com/webstatic/icon/pp196.png",
+        "url": "https://www.paypal.com"
+    },
+    {
+        "name": "Adobe",
+        "icon_url": "https://www.adobe.com/favicon.ico",
+        "url": "https://www.adobe.com"
+    },
+    {
+        "name": "WordPress",
+        "icon_url": "https://s.w.org/favicon.ico",
+        "url": "https://wordpress.org"
+    },
+    {
+        "name": "Flickr",
+        "icon_url": "https://combo.staticflickr.com/pw/favicon.ico",
+        "url": "https://www.flickr.com"
+    },
+    {
+        "name": "Vimeo",
+        "icon_url": "https://i.vimeocdn.com/favicon/main-touch_180",
+        "url": "https://vimeo.com"
+    },
+    {
+        "name": "SoundCloud",
+        "icon_url": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14b.ico",
+        "url": "https://soundcloud.com"
+    },
+    {
+        "name": "Slack",
+        "icon_url": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
+        "url": "https://slack.com"
+    },
+    {
+        "name": "Tumblr",
+        "icon_url": "https://assets.tumblr.com/images/favicons/favicon.ico",
+        "url": "https://www.tumblr.com"
+    },
+    {
+        "name": "Walmart",
+        "icon_url": "https://www.walmart.com/favicon.ico",
+        "url": "https://www.walmart.com"
+    },
+    {
+        "name": "Target",
+        "icon_url": "https://www.target.com/favicon.ico",
+        "url": "https://www.target.com"
+    },
+    {
+        "name": "Best Buy",
+        "icon_url": "https://www.bestbuy.com/favicon.ico",
+        "url": "https://www.bestbuy.com"
+    },
+    {
+        "name": "Etsy",
+        "icon_url": "https://www.etsy.com/favicon.ico",
+        "url": "https://www.etsy.com"
+    },
+    {
+        "name": "Airbnb",
+        "icon_url": "https://www.airbnb.com/favicon.ico",
+        "url": "https://www.airbnb.com"
+    },
+    {
+        "name": "Uber",
+        "icon_url": "https://www.uber.com/favicon.ico",
+        "url": "https://www.uber.com"
+    },
+    {
+        "name": "Lyft",
+        "icon_url": "https://www.lyft.com/favicon.ico",
+        "url": "https://www.lyft.com"
+    },
+    {
+        "name": "Tesla",
+        "icon_url": "https://www.tesla.com/favicon.ico",
+        "url": "https://www.tesla.com"
+    },
+    {
+        "name": "NASA",
+        "icon_url": "https://www.nasa.gov/sites/default/files/favicon.ico",
+        "url": "https://www.nasa.gov"
+    },
+    {
+        "name": "National Geographic",
+        "icon_url": "https://www.nationalgeographic.com/favicon.ico",
+        "url": "https://www.nationalgeographic.com"
+    },
+    {
+        "name": "Hulu",
+        "icon_url": "https://www.hulu.com/favicon.ico",
+        "url": "https://www.hulu.com"
+    },
+    {
+        "name": "Disney+",
+        "icon_url": "https://www.disneyplus.com/favicon.ico",
+        "url": "https://www.disneyplus.com"
+    },
+    {
+        "name": "HBO Max",
+        "icon_url": "https://www.hbomax.com/favicon.ico",
+        "url": "https://www.hbomax.com"
+    },
+    {
+        "name": "Craigslist",
+        "icon_url": "https://www.craigslist.org/favicon.ico",
+        "url": "https://www.craigslist.org"
+    },
+    {
+        "name": "Shutterstock",
+        "icon_url": "https://www.shutterstock.com/favicon.ico",
+        "url": "https://www.shutterstock.com"
+    }
 ]
