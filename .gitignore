@@ -1,4 +1,31 @@
-# Gradle / build
+# ============================================
+# Python (KamPondit Bot)
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.local
+
+data.json
+data.json.bak
+backups/
+ebooks/
+downloads/
+logs/
+
+firebase-credentials.json
+service-account.json
+
+# ============================================
+# Android / Gradle (SND Shield)
+# ============================================
 .gradle/
 build/
 **/build/
@@ -7,16 +34,18 @@ captures/
 *.apk
 *.aab
 
-# Android Studio / IntelliJ
-.idea/
-*.iml
-*.ipr
-*.iws
-
 # AndroidIDE
 .androidide/
 
-# OS
+# ============================================
+# IDE & OS
+# ============================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
 .DS_Store
 Thumbs.db
 
