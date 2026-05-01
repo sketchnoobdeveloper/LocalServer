@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_columnWeight="1"
+    app:layout_gravity="fill_horizontal"
+    android:minHeight="148dp"
+    android:orientation="vertical"
+    android:gravity="start|bottom"
+    android:padding="16dp"
+    android:background="@drawable/neo_button_bg"
+    android:clickable="true"
+    android:focusable="true">
+
+    <FrameLayout
+        android:id="@+id/iconBg"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/neo_circle_bg">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_shield"
+            android:tint="@color/brand_primary"
+            android:contentDescription="@string/app_name" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/tool_sms_scanner"
+        style="@style/Text.Heading"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/tool_sms_scanner_desc"
+        android:maxLines="2"
+        android:ellipsize="end"
+        style="@style/Text.Caption" />
+</LinearLayout>

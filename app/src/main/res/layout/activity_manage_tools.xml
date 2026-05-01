@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neo_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="32dp">
+
+            <!-- Header row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/avatarBg"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/neo_circle_bg">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_shield"
+                        android:tint="@color/brand_primary"
+                        android:contentDescription="@string/app_name" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_title"
+                        style="@style/Text.Title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_subtitle"
+                        style="@style/Text.Caption" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btnSettings"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_settings"
+                    android:scaleType="center"
+                    android:contentDescription="@string/tool_my_protection"
+                    style="@style/Neo.IconButton" />
+            </LinearLayout>
+
+            <!-- Status hero -->
+            <LinearLayout
+                android:id="@+id/heroStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                style="@style/Neo.Card"
+                android:padding="20dp">
+
+                <FrameLayout
+                    android:id="@+id/heroIconBg"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/neo_circle_bg">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_shield"
+                        android:tint="@color/brand_success"
+                        android:contentDescription="@string/dashboard_status_protected" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/heroTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_status_protected"
+                        style="@style/Text.Heading" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/app_tagline"
+                        style="@style/Text.Caption" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/heroToggleBg"
+                    android:layout_width="56dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/neo_pill_bg">
+
+                    <View
+                        android:id="@+id/heroToggleThumb"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginEnd="4dp"
+                        android:background="@drawable/neo_circle_bg" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Tools"
+                style="@style/Section.Header" />
+
+            <!-- Tool grid (12 entries) -->
+            <androidx.gridlayout.widget.GridLayout
+                android:id="@+id/toolGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:columnCount="2"
+                app:useDefaultMargins="true"
+                android:layoutAnimation="@anim/grid_layout_anim">
+
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileSmsScanner" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileCallGuard" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileEmailFilter" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileSmsRules" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileWhatsapp" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileMultiGuard" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileMyProtection" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileManageUsers" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileRequestManager" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileSubscription" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileUpdate" />
+                <include layout="@layout/item_tool_tile" android:id="@+id/tileLogout" />
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

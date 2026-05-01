@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="6dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    style="@style/Neo.Card.Small">
+
+    <TextView
+        android:id="@+id/apiMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="3dp"
+        android:text="GET"
+        android:textColor="@color/text_on_brand"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:background="@drawable/neo_chip_active" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/apiPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/api/v1/scan/sms"
+            style="@style/Text.Heading"
+            android:textSize="14sp"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/apiMeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="200 OK &#183; 184 ms &#183; today 12:30"
+            style="@style/Text.Caption" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/apiMore"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_chevron_right"
+        android:tint="@color/text_muted"
+        android:contentDescription="@string/action_edit" />
+</LinearLayout>

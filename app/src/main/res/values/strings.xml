@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SND Shield</string>
+    <string name="app_tagline">Anti-Spam &#183; Anti-Bomber Defense</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_send">Send</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Splash -->
+    <string name="splash_loading">Loading\u2026</string>
+
+    <!-- Login -->
+    <string name="login_welcome">Welcome back</string>
+    <string name="login_subtitle">Login to continue protecting yourself</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_signup">Sign up</string>
+    <string name="action_forgot">Forgot password?</string>
+    <string name="login_or">or continue with</string>
+    <string name="login_no_account">No account yet?</string>
+    <string name="login_have_account">Already have an account?</string>
+
+    <!-- Dashboard / Manage Tools -->
+    <string name="dashboard_title">My Shield</string>
+    <string name="dashboard_subtitle">Tools to protect you from spam &amp; bombing</string>
+    <string name="dashboard_status_protected">You are protected</string>
+    <string name="dashboard_status_paused">Protection paused</string>
+    <string name="tool_sms_scanner">SMS Scanner</string>
+    <string name="tool_sms_scanner_desc">Detect &amp; flag SMS flood attacks</string>
+    <string name="tool_call_guard">Call Guard</string>
+    <string name="tool_call_guard_desc">Auto-silence repeat unknown calls</string>
+    <string name="tool_email_filter">Email Filter</string>
+    <string name="tool_email_filter_desc">Spam &amp; phishing email rules</string>
+    <string name="tool_sms_rules">SMS Rules</string>
+    <string name="tool_sms_rules_desc">Custom block / allow filters</string>
+    <string name="tool_whatsapp_report">WhatsApp Report</string>
+    <string name="tool_whatsapp_report_desc">Report spam &amp; abuse contacts</string>
+    <string name="tool_multi_guard">Multi-Channel Guard</string>
+    <string name="tool_multi_guard_desc">Combined protection dashboard</string>
+    <string name="tool_my_protection">My Protection</string>
+    <string name="tool_my_protection_desc">Personal safety tips &amp; status</string>
+    <string name="tool_manage_users">Manage Users</string>
+    <string name="tool_manage_users_desc">Admin: roles, blocks, broadcasts</string>
+    <string name="tool_request_manager">Request Manager</string>
+    <string name="tool_request_manager_desc">Admin: API endpoints &amp; logs</string>
+    <string name="tool_subscription">Subscription</string>
+    <string name="tool_subscription_desc">Free / Premium plans</string>
+    <string name="tool_in_app_update">In-App Update</string>
+    <string name="tool_in_app_update_desc">Check for new versions</string>
+
+    <!-- Generic stat labels -->
+    <string name="stat_total_requests">Total Requests</string>
+    <string name="stat_success">Success</string>
+    <string name="stat_failed">Failed</string>
+    <string name="stat_remaining">Remaining</string>
+    <string name="stat_blocked">Blocked</string>
+    <string name="stat_allowed">Allowed</string>
+
+    <!-- Subscription -->
+    <string name="sub_title">Choose a plan</string>
+    <string name="sub_subtitle">Upgrade for advanced protection</string>
+    <string name="sub_free">Free</string>
+    <string name="sub_premium">Premium</string>
+    <string name="sub_lifetime">Lifetime</string>
+    <string name="sub_per_month">/ month</string>
+    <string name="sub_one_time">one time</string>
+
+    <!-- In-App Update -->
+    <string name="update_checking">Checking for updates\u2026</string>
+    <string name="update_available">A new version is available</string>
+    <string name="update_uptodate">You are up to date</string>
+    <string name="update_now">Update now</string>
+    <string name="update_later">Later</string>
+
+    <!-- Misc -->
+    <string name="placeholder_input">Type here\u2026</string>
+    <string name="placeholder_phone">Phone number</string>
+    <string name="placeholder_email">name@example.com</string>
+    <string name="placeholder_message">Your message</string>
+    <string name="placeholder_subject">Subject</string>
+    <string name="placeholder_search">Search</string>
+</resources>

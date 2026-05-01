@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neomorphism inset (pressed-in) card -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/neo_surface_alt" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+    <!-- Inner light highlight (bottom-right) -->
+    <item
+        android:left="4dp"
+        android:top="4dp"
+        android:right="0dp"
+        android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/neo_highlight" />
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+
+    <!-- Inner shadow (top-left) -->
+    <item
+        android:left="0dp"
+        android:top="0dp"
+        android:right="4dp"
+        android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/neo_shadow_soft" />
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+
+    <!-- Surface fill -->
+    <item
+        android:left="3dp"
+        android:top="3dp"
+        android:right="3dp"
+        android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/neo_surface_alt" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>

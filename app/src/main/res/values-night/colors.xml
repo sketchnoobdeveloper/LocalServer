@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neomorphism Night palette -->
+    <color name="neo_bg">#1B1F27</color>
+    <color name="neo_surface">#222731</color>
+    <color name="neo_surface_alt">#181C24</color>
+    <color name="neo_highlight">#2C323E</color>
+    <color name="neo_shadow">#0B0E13</color>
+    <color name="neo_shadow_soft">#11151C</color>
+    <color name="neo_divider">#2A303B</color>
+
+    <!-- Brand -->
+    <color name="brand_primary">#7A8CFF</color>
+    <color name="brand_primary_soft">#3D5AFE</color>
+    <color name="brand_accent">#00E5C7</color>
+    <color name="brand_danger">#FF6B85</color>
+    <color name="brand_warning">#FFC04D</color>
+    <color name="brand_success">#3DDC97</color>
+
+    <!-- Text -->
+    <color name="text_primary">#ECEFF4</color>
+    <color name="text_secondary">#B5BCC8</color>
+    <color name="text_muted">#7B8494</color>
+    <color name="text_on_brand">#FFFFFF</color>
+
+    <!-- Misc -->
+    <color name="overlay_scrim">#99000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

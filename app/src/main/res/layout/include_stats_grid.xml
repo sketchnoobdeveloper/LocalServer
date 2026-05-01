@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 4-up stats grid: Total, Success, Failed, Remaining -->
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:columnCount="2"
+    app:rowCount="2"
+    app:useDefaultMargins="true"
+    android:layout_marginTop="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal"
+        app:layout_rowWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        style="@style/Neo.Card"
+        android:minHeight="92dp">
+
+        <TextView
+            android:id="@+id/statTotal"
+            style="@style/Text.Stat.Number"
+            android:textColor="@color/brand_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            style="@style/Text.Stat.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/stat_total_requests" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal"
+        app:layout_rowWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        style="@style/Neo.Card"
+        android:minHeight="92dp">
+
+        <TextView
+            android:id="@+id/statSuccess"
+            style="@style/Text.Stat.Number"
+            android:textColor="@color/brand_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            style="@style/Text.Stat.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/stat_success" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal"
+        app:layout_rowWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        style="@style/Neo.Card"
+        android:minHeight="92dp">
+
+        <TextView
+            android:id="@+id/statFailed"
+            style="@style/Text.Stat.Number"
+            android:textColor="@color/brand_danger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            style="@style/Text.Stat.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/stat_failed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal"
+        app:layout_rowWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        style="@style/Neo.Card"
+        android:minHeight="92dp">
+
+        <TextView
+            android:id="@+id/statRemaining"
+            style="@style/Text.Stat.Number"
+            android:textColor="@color/brand_warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            style="@style/Text.Stat.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/stat_remaining" />
+    </LinearLayout>
+</androidx.gridlayout.widget.GridLayout>

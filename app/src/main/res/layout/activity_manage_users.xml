@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neo_bg"
+    android:orientation="vertical">
+
+    <include android:id="@+id/header" layout="@layout/include_neo_header" />
+
+    <!-- Search + add row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            style="@style/Neo.Input">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_search"
+                android:tint="@color/text_muted"
+                android:contentDescription="@string/placeholder_search" />
+
+            <EditText
+                android:id="@+id/inputSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@null"
+                android:hint="@string/placeholder_search"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_muted" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnAdd"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_add"
+            android:scaleType="center"
+            android:contentDescription="@string/action_add"
+            style="@style/Neo.IconButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginHorizontal="16dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            style="@style/Neo.Card.Small">
+
+            <TextView
+                android:id="@+id/usrTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                style="@style/Text.Stat.Number"
+                android:textColor="@color/brand_primary" />
+
+            <TextView
+                style="@style/Text.Stat.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Users" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="6dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            style="@style/Neo.Card.Small">
+
+            <TextView
+                android:id="@+id/usrPremium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                style="@style/Text.Stat.Number"
+                android:textColor="@color/brand_warning" />
+
+            <TextView
+                style="@style/Text.Stat.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Premium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            style="@style/Neo.Card.Small">
+
+            <TextView
+                android:id="@+id/usrBlocked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                style="@style/Text.Stat.Number"
+                android:textColor="@color/brand_danger" />
+
+            <TextView
+                style="@style/Text.Stat.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blocked" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Broadcast message to all"
+        style="@style/Neo.Button.Primary" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/usersList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="14dp"
+        android:clipToPadding="false"
+        android:layoutAnimation="@anim/list_layout_anim"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="32dp"
+        android:scrollbars="none" />
+</LinearLayout>
